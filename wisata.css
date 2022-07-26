@@ -1,0 +1,54 @@
+html {
+    background: #fff7f6;
+  }
+body{
+    margin: 50px;
+    padding: 50px;
+}
+
+
+  h1 {
+    color: rgb(220, 154, 11);
+    font-weight: bold;
+    font-size: 35px;
+    float: center;
+  }
+
+  h2 {
+    color: grey;
+    font-weight: bold;
+    font-size: 25px;
+    float: center;
+  }
+
+  /*-- --*/
+  #container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 900px;
+    margin: 0 auto;
+  }
+
+  .container.flex-start {
+      display: flex;
+    justify-content: center;
+  }
+
+  .dmz .jimbaran .nusadua .kuta {
+    width: 280px;
+    float: left;
+    margin: 10px;
+    font-size: 1,5rem;
+    line-height: 1;
+    text-align: center;
+    padding: 1rem;
+    background: mistyrose;
+    border: 1px solid tomato;
+    color: tomato;
+    margin-left: auto;
+    max-height: 30rem;
+       
+  }
+
+  
