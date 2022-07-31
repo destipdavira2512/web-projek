@@ -1,0 +1,48 @@
+  
+    .sec1{
+      margin: 10px auto 35px auto;
+      display: block;
+      text-align: center;
+    }
+
+    .sec1 > p{
+      text-align: justify;
+      text-indent: 25px;
+      line-height: 25px;
+    }
+
+    .sec1 > figure {
+      margin: 10px auto;
+    }
+
+    .sec1 > figure > img{
+      border-radius: 10px;
+      width: 50%;
+      margin: auto;
+    }
+
+    .sec1 > h2 {
+      text-align: left;
+    }
+
+    main > h1{
+      margin: 50px auto;
+      text-align: center;
+      color: gold;
+      width: 98%;
+    }
+
+    h1 > small {
+      font-size: 15px;
+      display: block;
+    }
+
+    article{
+      width: 50%;
+      margin: auto;
+    }
+
+    .infoTitle{
+      width: 95%;
+      margin: auto;
+    }

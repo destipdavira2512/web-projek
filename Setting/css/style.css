@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  Helvetica, Arial, sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+
+main{
+    width: auto;
+    background-image: url(../image/3.webp);
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav{
+    width:auto;
+    height: auto;
+    margin: auto;
+}
+
+nav > ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+    color:rgb(72, 72, 67);
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    padding: 10px;
+    
+}
+
+nav > ul > li > a:hover{
+    color: rgb(220, 154, 11);
+}
+
+.search{
+    width: auto;
+    float: left;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid rgb(220, 154, 11);
+    color: rgb(8, 8, 8);
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: rgb(220, 154, 11);
+    border: 2px solid rgb(220, 154, 11);
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.content{
+    width: 50%;
+    margin: 10px auto;
+    text-align: justify;
+    word-break: break-word;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+    box-shadow: 5px 5px 11px 0px #00000073;
+    margin-top: 20px;
+} 
+
+.content > p{
+    font-size: 17.5px;
+    font-family: verdana;
+    letter-spacing: 0.8px;
+    text-align: justify;
+    line-height: 31px;
+}
+
+.jc{
+    font-family: helvetica;
+    text-align: center;
+    margin: 30px;
+    color: gold;
+}
+
+.form{
+    width: 300px;
+    height: 400px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: auto;
+    box-shadow: 5px 5px 11px 0px #00000073;
+    text-align: center;
+    color: #fff;
+    font-family: helvetica;
+}
+
+.form > h2{
+    font-family: helvetica;
+    text-align: center;
+    margin: 0px auto 15px auto;
+    color: rgb(255, 255, 255);
+}
+
+.form > input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom:1px solid rgb(220, 154, 11);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin: 30px auto 0px auto;
+    font-family: sans-serif;
+}
+
+.form > a{
+    color: #dc9a0b;
+    text-decoration: none;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: rgb(220, 154, 11);
+    border: none;
+    margin: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.btnn:hover{
+    background: #fff;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+    color: rgb(220, 154, 11);
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    border-top: dotted 2px #009b49;
+    margin: 25px auto 0 auto;
+}
+
+
+.h4f{
+    font-weight: 100;
+    margin: 8px;
+}
+
+.icon{
+    margin: 10px auto;
+}
+
+.icon > a{
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.icon > a:hover{
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+    color: #dc9a0b;
+}
+
+
+
+/*
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: rgb(220, 154, 11);
+    font-size: 35px;
+    font: Arial;
+    padding-left: 30px;
+    float: left;
+    padding-top: 20px;
+
+}
+
+.menu{
+    width: 200px;
+    float: left;
+    height: 50px;
+}
+
+
+
+
+
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: rgb(11, 15, 23);
+    position: relative;
+}
+
+
+.content{
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 1,2px;
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: rgb(220, 154, 11);
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 1px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: #fff;
+}
+
+.content span{
+    color: rgb(220, 154, 11);
+    font-size: 40px;
+}
+
+.form{
+    width: 300px;
+    height: 400px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom:1px solid rgb(220, 154, 11);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+
+
+.btnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.form, .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.form, .link a{
+    text-decoration: none;
+    color: rgb(220, 154, 11);
+}
+
+.low{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #fff;
+
+}
+
+.icon a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.icon ion-icon{
+    color: #fff;
+    font-size: 20px;
+    padding-left: 16px;
+    padding-top: 5px;
+    transition: 0,3s ease;
+}
+
+.icon ion-icon:hover{
+    color:rgb(220, 154, 11);
+}
+
+*/
